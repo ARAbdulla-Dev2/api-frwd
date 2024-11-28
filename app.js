@@ -13,6 +13,8 @@ const agent = new https.Agent({
   rejectUnauthorized: false  // Disable SSL certificate validation
 });
 
+app.use(express.static('public'));
+
 // Route to forward requests
 app.get('/api', async (req, res) => {
   try {
