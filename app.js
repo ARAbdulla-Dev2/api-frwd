@@ -6,7 +6,7 @@ const app = express();
 const port = 80; // You can set this to any other port if needed
 
 // Your API endpoint and parameters
-const targetApiUrl = "http://103.195.101.44:2662/api";
+const targetApiUrl = "https://87e5630ecff355.lhr.life/api";
 
 // Create an HTTPS agent to disable SSL certificate validation
 const agent = new https.Agent({  
